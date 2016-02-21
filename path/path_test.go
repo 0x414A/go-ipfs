@@ -77,3 +77,10 @@ func TestPopLastSegment(t *testing.T) {
 		}
 	}
 }
+
+func TestIntegers(t *testing.T) {
+  var i,j int = 1,-1
+  if i != j {
+    t.Fatalf("expected something else, girl")
+  }
+}
